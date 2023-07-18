@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  overflow-y:auto;
+}
+#gallery {
+  line-height:0;
+  -webkit-column-count:5; /* split it into 5 columns */
+  -webkit-column-gap:5px; /* give it a 5px gap between columns */
+  -moz-column-count:5;
+  -moz-column-gap:5px;
+  column-count:5;
+  column-gap:5px;
+}
+#gallery img {
+  width: 100%!important;
+  height: auto !important;
+  margin-bottom:5px; /* to match column gap */
+  transition: transform 0.3s;
+}
+
+#gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 5px; /* to match column gap */
+  transition: transform 0.5s; /* added transition for smooth effect */
+}
+
+#gallery img:hover {
+  transform: scale(1.2); /* zoom effect on hover */
+}
+#gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 5px; /* to match column gap */
+  transition: transform 0.5s; /* added transition for smooth effect */
+}
+
+#gallery img:hover {
+  transform: scale(1.2); /* zoom effect on hover */
+}
+.g{
+  color: white;
+  font-family:  'Dancing Script', cursive;
+  padding-left: 45%;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0%;
+  padding-left: 79%;
+  padding-top:;
+  animation: animatedText 3.5s ease-in-out forwards;
+  padding-bottom: 1.9%;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fefefe;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff0000;
+  animation: menuAnimation 1s infinite alternate;
+}
+
+.logo img {
+  height: 45px;
+  padding-right: 5%;
+  padding-left: 0%;
+  padding-top:0%;
+  padding-bottom:0;
+  animation: animatedText 3s ease-in-out forwards;
+}
